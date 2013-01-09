@@ -72,15 +72,15 @@
 /* Style */
 
 .ui-bar-c {
-	border: @a-bar-border;
-	background: @a-bar-background-color;
-	color: @a-bar-color;
+	border: @c-bar-border;
+	background: @c-bar-background-color;
+	color: @c-bar-color;
 	font-weight: bold;
-	text-shadow: @a-bar-shadow-x @a-bar-shadow-y @a-bar-shadow-radius @a-bar-shadow-color;
-	#jqm > .bg(@a-bar-background-start, @a-bar-background-end);
+	text-shadow: @c-bar-shadow-x @c-bar-shadow-y @c-bar-shadow-radius @c-bar-shadow-color;
+	#jqm > .bg(@c-bar-background-start, @c-bar-background-end);
 }
 .ui-bar-c .ui-link-inherit {
-	color: @a-bar-color;
+	color: @c-bar-color;
 }
 
 .ui-bar-c a.ui-link {
@@ -105,11 +105,11 @@
 }
 .ui-body-c,
 .ui-overlay-c {
-	border: @a-body-border;
-	color: @a-body-color;
-	text-shadow: @a-body-shadow-x @a-body-shadow-y @a-body-shadow-radius @a-body-shadow-color;
-	background: @a-body-background-color;
-	#jqm > .bg(@a-body-background-start, @a-body-background-end);
+	border: @c-body-border;
+	color: @c-body-color;
+	text-shadow: @c-body-shadow-x @c-body-shadow-y @c-body-shadow-radius @c-body-shadow-color;
+	background: @c-body-background-color;
+	#jqm > .bg(@c-body-background-start, @c-body-background-end);
 }
 .ui-overlay-c {
 	background-image: none;
@@ -122,11 +122,11 @@
 	}
 }
 .ui-body-c .ui-link-inherit {
-	color: @a-body-color;
+	color: @c-body-color;
 }
 
 .ui-body-c .ui-link {
-	color: @a-body-link-color;
+	color: @c-body-link-color;
 	font-weight: bold;
 	&:visited {
 		color: @c-body-link-visited;
@@ -140,42 +140,33 @@
 }
 
 .ui-btn-up-c {
-	border: @a-bup-border;
-	background: @a-bup-background-color;
-	font-weight: bold;
-	color: @a-bup-color;
-	text-shadow: @a-bup-shadow-x @a-bup-shadow-y @a-bup-shadow-radius @a-bup-shadow-color;
-	#jqm > .bg(@a-bup-background-start, a-bup-background-end);
+	#jqm > .btn-attrs(@c-bup-background-color, @c-bup-border, @c-bup-color);
+	text-shadow: @c-bup-shadow-x @c-bup-shadow-y @c-bup-shadow-radius @c-bup-shadow-color;
+	#jqm > .bg(@c-bup-background-start, a-bup-background-end);
 }
 .ui-btn-up-c:visited,
 .ui-btn-up-c a.ui-link-inherit {
-	color: @a-bup-color;
+	color: @c-bup-color;
 }
 .ui-btn-hover-c {
-	border: @a-bhover-border;
-	background: @a-bhover-background-color;
-	font-weight: bold;
-	color: @a-bhover-color;
-	text-shadow: @a-bhover-shadow-x @a-bhover-shadow-y @a-bhover-shadow-radius @a-bhover-shadow-color;
-	#jqm > .bg(@a-bhover-background-start, @a-bhover-background-end);
+	#jqm > .btn-attrs(@c-bhover-background-color, @c-bhover-border, @c-bhover-color);
+	text-shadow: @c-bhover-shadow-x @c-bhover-shadow-y @c-bhover-shadow-radius @c-bhover-shadow-color;
+	#jqm > .bg(@c-bhover-background-start, @c-bhover-background-end);
 }
 .ui-btn-hover-c:visited,
 .ui-btn-hover-c:hover,
 .ui-btn-hover-c a.ui-link-inherit {
-	color: @a-bhover-color;
+	color: @c-bhover-color;
 }
 .ui-btn-down-c {
-	border: @a-bdown-border;
-	background: @a-bdown-background-color;
-	font-weight: bold;
-	color: @a-bdown-color;
-	text-shadow: @a-bdown-shadow-x @a-bdown-shadow-y @a-bdown-shadow-radius @a-bdown-shadow-color;
-	#jqm > .bg(@a-bdown-background-start, @a-bdown-background-end);
+	#jqm > .btn-attrs(@c-bdown-background-color, @c-bdown-border, @c-bdown-color);
+	text-shadow: @c-bdown-shadow-x @c-bdown-shadow-y @c-bdown-shadow-radius @c-bdown-shadow-color;
+	#jqm > .bg(@c-bdown-background-start, @c-bdown-background-end);
 }
 .ui-btn-down-c:visited,
 .ui-btn-down-c:hover,
 .ui-btn-down-c a.ui-link-inherit {
-	color: @a-bdown-color;
+	color: @c-bdown-color;
 }
 .ui-btn-up-c,
 .ui-btn-hover-c,

@@ -140,10 +140,7 @@
 }
 
 .ui-btn-up-a {
-	border: @a-bup-border;
-	background: @a-bup-background-color;
-	font-weight: bold;
-	color: @a-bup-color;
+	#jqm > .btn-attrs(@a-bup-background-color, @a-bup-border, @a-bup-color);
 	text-shadow: @a-bup-shadow-x @a-bup-shadow-y @a-bup-shadow-radius @a-bup-shadow-color;
 	#jqm > .bg(@a-bup-background-start, a-bup-background-end);
 }
@@ -152,10 +149,7 @@
 	color: @a-bup-color;
 }
 .ui-btn-hover-a {
-	border: @a-bhover-border;
-	background: @a-bhover-background-color;
-	font-weight: bold;
-	color: @a-bhover-color;
+	#jqm > .btn-attrs(@a-bhover-background-color, @a-bhover-border, @a-bhover-color);
 	text-shadow: @a-bhover-shadow-x @a-bhover-shadow-y @a-bhover-shadow-radius @a-bhover-shadow-color;
 	#jqm > .bg(@a-bhover-background-start, @a-bhover-background-end);
 }
@@ -165,10 +159,7 @@
 	color: @a-bhover-color;
 }
 .ui-btn-down-a {
-	border: @a-bdown-border;
-	background: @a-bdown-background-color;
-	font-weight: bold;
-	color: @a-bdown-color;
+	#jqm > .btn-attrs(@a-bdown-background-color, @a-bdown-border, @a-bdown-color);
 	text-shadow: @a-bdown-shadow-x @a-bdown-shadow-y @a-bdown-shadow-radius @a-bdown-shadow-color;
 	#jqm > .bg(@a-bdown-background-start, @a-bdown-background-end);
 }
