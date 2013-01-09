@@ -84,7 +84,7 @@
 }
 
 .ui-bar-e a.ui-link {
-	color: @a-bar-link-color;
+	color: @e-bar-link-color;
 	font-weight: bold;
 	&:visited {
 		color: @e-bar-link-visited;
@@ -126,7 +126,7 @@
 }
 
 .ui-body-e .ui-link {
-	color: @a-body-link-color;
+	color: @e-body-link-color;
 	font-weight: bold;
 	&:visited {
 		color: @e-body-link-visited;
@@ -142,31 +142,26 @@
 .ui-btn-up-e {
 	#jqm > .btn-attrs(@e-bup-background-color, @e-bup-border, @e-bup-color);
 	text-shadow: @e-bup-shadow-x @e-bup-shadow-y @e-bup-shadow-radius @e-bup-shadow-color;
-	#jqm > .bg(@e-bup-background-start, @e-bup-background-end);
-}
-.ui-btn-up-e:visited,
-.ui-btn-up-e a.ui-link-inherit {
-	color: @e-bup-color;
+	#jqm > .bg(@e-bup-background-start, a-bup-background-end);
+	&:visited, a.ui-link-inherit {
+		color: @e-bup-color;
+	}
 }
 .ui-btn-hover-e {
 	#jqm > .btn-attrs(@e-bhover-background-color, @e-bhover-border, @e-bhover-color);
 	text-shadow: @e-bhover-shadow-x @e-bhover-shadow-y @e-bhover-shadow-radius @e-bhover-shadow-color;
 	#jqm > .bg(@e-bhover-background-start, @e-bhover-background-end);
-}
-.ui-btn-hover-e:visited,
-.ui-btn-hover-e:hover,
-.ui-btn-hover-e a.ui-link-inherit {
-	color: @e-bhover-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @e-bhover-color;
+	}
 }
 .ui-btn-down-e {
 	#jqm > .btn-attrs(@e-bdown-background-color, @e-bdown-border, @e-bdown-color);
 	text-shadow: @e-bdown-shadow-x @e-bdown-shadow-y @e-bdown-shadow-radius @e-bdown-shadow-color;
 	#jqm > .bg(@e-bdown-background-start, @e-bdown-background-end);
-}
-.ui-btn-down-e:visited,
-.ui-btn-down-e:hover,
-.ui-btn-down-e a.ui-link-inherit {
-	color: @e-bdown-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @e-bdown-color;
+	}
 }
 .ui-btn-up-e,
 .ui-btn-hover-e,

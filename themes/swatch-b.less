@@ -109,7 +109,7 @@
 	color: @b-body-color;
 	text-shadow: @b-body-shadow-x @b-body-shadow-y @b-body-shadow-radius @b-body-shadow-color;
 	background: @b-body-background-color;
-	#jqm > .bg(@b-body-background-start, @a-body-background-end);
+	#jqm > .bg(@b-body-background-start, @b-body-background-end);
 }
 .ui-overlay-b {
 	background-image: none;
@@ -142,31 +142,26 @@
 .ui-btn-up-b {
 	#jqm > .btn-attrs(@b-bup-background-color, @b-bup-border, @b-bup-color);
 	text-shadow: @b-bup-shadow-x @b-bup-shadow-y @b-bup-shadow-radius @b-bup-shadow-color;
-	#jqm > .bg(@b-bup-background-start, @b-bup-background-end);
-}
-.ui-btn-up-b:visited,
-.ui-btn-up-b a.ui-link-inherit {
-	color: @b-bup-color;
+	#jqm > .bg(@b-bup-background-start, a-bup-background-end);
+	&:visited, a.ui-link-inherit {
+		color: @b-bup-color;
+	}
 }
 .ui-btn-hover-b {
 	#jqm > .btn-attrs(@b-bhover-background-color, @b-bhover-border, @b-bhover-color);
 	text-shadow: @b-bhover-shadow-x @b-bhover-shadow-y @b-bhover-shadow-radius @b-bhover-shadow-color;
 	#jqm > .bg(@b-bhover-background-start, @b-bhover-background-end);
-}
-.ui-btn-hover-b:visited,
-.ui-btn-hover-b:hover,
-.ui-btn-hover-b a.ui-link-inherit {
-	color: @b-bhover-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @b-bhover-color;
+	}
 }
 .ui-btn-down-b {
 	#jqm > .btn-attrs(@b-bdown-background-color, @b-bdown-border, @b-bdown-color);
 	text-shadow: @b-bdown-shadow-x @b-bdown-shadow-y @b-bdown-shadow-radius @b-bdown-shadow-color;
 	#jqm > .bg(@b-bdown-background-start, @b-bdown-background-end);
-}
-.ui-btn-down-b:visited,
-.ui-btn-down-b:hover,
-.ui-btn-down-b a.ui-link-inherit {
-	color: @b-bdown-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @b-bdown-color;
+	}
 }
 .ui-btn-up-b,
 .ui-btn-hover-b,

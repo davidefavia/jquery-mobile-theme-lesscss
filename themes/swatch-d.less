@@ -84,7 +84,7 @@
 }
 
 .ui-bar-d a.ui-link {
-	color: @a-bar-link-color;
+	color: @d-bar-link-color;
 	font-weight: bold;
 	&:visited {
 		color: @d-bar-link-visited;
@@ -126,7 +126,7 @@
 }
 
 .ui-body-d .ui-link {
-	color: @a-body-link-color;
+	color: @d-body-link-color;
 	font-weight: bold;
 	&:visited {
 		color: @d-body-link-visited;
@@ -142,31 +142,26 @@
 .ui-btn-up-d {
 	#jqm > .btn-attrs(@d-bup-background-color, @d-bup-border, @d-bup-color);
 	text-shadow: @d-bup-shadow-x @d-bup-shadow-y @d-bup-shadow-radius @d-bup-shadow-color;
-	#jqm > .bg(@d-bup-background-start, @d-bup-background-end);
-}
-.ui-btn-up-d:visited,
-.ui-btn-up-d a.ui-link-inherit {
-	color: @d-bup-color;
+	#jqm > .bg(@d-bup-background-start, a-bup-background-end);
+	&:visited, a.ui-link-inherit {
+		color: @d-bup-color;
+	}
 }
 .ui-btn-hover-d {
 	#jqm > .btn-attrs(@d-bhover-background-color, @d-bhover-border, @d-bhover-color);
 	text-shadow: @d-bhover-shadow-x @d-bhover-shadow-y @d-bhover-shadow-radius @d-bhover-shadow-color;
 	#jqm > .bg(@d-bhover-background-start, @d-bhover-background-end);
-}
-.ui-btn-hover-d:visited,
-.ui-btn-hover-d:hover,
-.ui-btn-hover-d a.ui-link-inherit {
-	color: @d-bhover-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @d-bhover-color;
+	}
 }
 .ui-btn-down-d {
 	#jqm > .btn-attrs(@d-bdown-background-color, @d-bdown-border, @d-bdown-color);
 	text-shadow: @d-bdown-shadow-x @d-bdown-shadow-y @d-bdown-shadow-radius @d-bdown-shadow-color;
 	#jqm > .bg(@d-bdown-background-start, @d-bdown-background-end);
-}
-.ui-btn-down-d:visited,
-.ui-btn-down-d:hover,
-.ui-btn-down-d a.ui-link-inherit {
-	color: @d-bdown-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @d-bdown-color;
+	}
 }
 .ui-btn-up-d,
 .ui-btn-hover-d,

@@ -143,30 +143,25 @@
 	#jqm > .btn-attrs(@c-bup-background-color, @c-bup-border, @c-bup-color);
 	text-shadow: @c-bup-shadow-x @c-bup-shadow-y @c-bup-shadow-radius @c-bup-shadow-color;
 	#jqm > .bg(@c-bup-background-start, a-bup-background-end);
-}
-.ui-btn-up-c:visited,
-.ui-btn-up-c a.ui-link-inherit {
-	color: @c-bup-color;
+	&:visited, a.ui-link-inherit {
+		color: @c-bup-color;
+	}
 }
 .ui-btn-hover-c {
 	#jqm > .btn-attrs(@c-bhover-background-color, @c-bhover-border, @c-bhover-color);
 	text-shadow: @c-bhover-shadow-x @c-bhover-shadow-y @c-bhover-shadow-radius @c-bhover-shadow-color;
 	#jqm > .bg(@c-bhover-background-start, @c-bhover-background-end);
-}
-.ui-btn-hover-c:visited,
-.ui-btn-hover-c:hover,
-.ui-btn-hover-c a.ui-link-inherit {
-	color: @c-bhover-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @c-bhover-color;
+	}
 }
 .ui-btn-down-c {
 	#jqm > .btn-attrs(@c-bdown-background-color, @c-bdown-border, @c-bdown-color);
 	text-shadow: @c-bdown-shadow-x @c-bdown-shadow-y @c-bdown-shadow-radius @c-bdown-shadow-color;
 	#jqm > .bg(@c-bdown-background-start, @c-bdown-background-end);
-}
-.ui-btn-down-c:visited,
-.ui-btn-down-c:hover,
-.ui-btn-down-c a.ui-link-inherit {
-	color: @c-bdown-color;
+	&:visited,&:hover,a.ui-link-inherit {
+		color: @c-bdown-color;
+	}
 }
 .ui-btn-up-c,
 .ui-btn-hover-c,
