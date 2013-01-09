@@ -1,0 +1,34 @@
+/* Mixins */
+
+/* jQuery Mobile namspace: jqm, http://lesscss.org/#-namespaces */
+#jqm {
+	.bg(@start ,@end) {
+		background-image: -webkit-gradient(linear, left top, left bottom, from(@start), to(@end)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient(@start, @end); /* Chrome 10+, Saf5.1+ */
+		background-image:    -moz-linear-gradient(@start ,@end); /* FF3.6 */
+		background-image:     -ms-linear-gradient(@start ,@end); /* IE10 */
+		background-image:      -o-linear-gradient(@start ,@end); /* Opera 11.10+ */
+		background-image:         linear-gradient(@start ,@end);
+	}
+	.border-radius(@radius) {
+		-webkit-border-radius: @radius;
+		   -moz-border-radius: @radius;
+				border-radius: @radius;	
+	}
+	.border-radius(@top-left,@top-right,@bottom-right,@bottom-left) {
+		-webkit-border-radius: @top-left @top-right @bottom-right @bottom-left;
+		   -moz-border-radius: @top-left @top-right @bottom-right @bottom-left;
+				border-radius: @top-left @top-right @bottom-right @bottom-left;	
+	}
+	.background-size(@width, @height) {
+		-webkit-background-size: @width @height;
+		   -moz-background-size: @width @height;
+			 -o-background-size: @width @height;
+				background-size: @width @height;
+	}
+	.box-shadow(...) {
+		-webkit-box-shadow: @arguments;
+		   -moz-box-shadow: @arguments;
+				box-shadow: @arguments;
+	}
+}

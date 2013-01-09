@@ -1,0 +1,193 @@
+/* E
+-----------------------------------------------------------------------------------------------------------*/
+
+/* Vars */
+
+/* bar */
+@e-bar-border: 1px solid #f7c942;
+@e-bar-background-color: #fadb4e;
+@e-bar-color: #333;
+@e-bar-shadow-x: 0;
+@e-bar-shadow-y: 1px;
+@e-bar-shadow-radius: 0;
+@e-bar-shadow-color: #fff;
+@e-bar-background-start: #fceda7;
+@e-bar-background-end: #fbef7e;
+@e-bar-link-color: #2489ce;
+@e-bar-link-visited: #2489ce;
+@e-bar-link-hover: #2489ce;
+@e-bar-link-active: #2489ce;
+
+/* body */
+@e-body-border: 1px solid #f7c942;
+@e-body-color: #222;
+@e-body-shadow-x: 0;
+@e-body-shadow-y: 1px;
+@e-body-shadow-radius: 0;
+@e-body-shadow-color: #fff;
+@e-body-background-color: #fff9df;
+@e-body-background-start: #fffadf;
+@e-body-background-end: #fff3a5;
+@e-body-link-color: #2489ce;
+@e-body-link-visited: #2489ce;
+@e-body-link-hover: #2489ce;
+@e-body-link-active: #2489ce;
+
+/* btn-up */
+@e-bup-border: 1px solid #f4c63f;
+@e-bup-background-color: #fadb4e;
+@e-bup-color: #222;
+@e-bup-shadow-x: 0;
+@e-bup-shadow-y: 1px;
+@e-bup-shadow-radius: 0;
+@e-bup-shadow-color: #fff;
+@e-bup-background-start: #ffefaa;
+@e-bup-background-end: #ffe155;
+
+/* btn-hover */
+@e-bhover-border: 1px solid #f2c43d;
+@e-bhover-background-color: #fbe26f;
+@e-bhover-color: #333;
+@e-bhover-shadow-x: 0;
+@e-bhover-shadow-y: 1px;
+@e-bhover-shadow-radius: 0;
+@e-bhover-shadow-color: #fff;
+@e-bhover-background-start: #fff5ba;
+@e-bhover-background-end: #fbdd52;
+
+/* btn-down */
+@e-bdown-border: 1px solid #f2c43d;
+@e-bdown-background-color: #fceda7;
+@e-bdown-color: #333;
+@e-bdown-shadow-x: 0;
+@e-bdown-shadow-y: 1px;
+@e-bdown-shadow-radius: 0;
+@e-bdown-shadow-color: #fff;
+@e-bdown-background-start: #f8d94c;
+@e-bdown-background-end: #fadb4e;
+
+
+
+
+/* Style */
+
+.ui-bar-e {
+	border: @e-bar-border;
+	background: @e-bar-background-color;
+	color: @e-bar-color;
+	font-weight: bold;
+	text-shadow: @e-bar-shadow-x @e-bar-shadow-y @e-bar-shadow-radius @e-bar-shadow-color;
+	#jqm > .bg(@e-bar-background-start, @e-bar-background-end);
+}
+.ui-bar-e .ui-link-inherit {
+	color: @e-bar-color;
+}
+
+.ui-bar-e a.ui-link {
+	color: @e-bar-link-color;
+	font-weight: bold;
+}
+
+.ui-bar-e a.ui-link:visited {
+    color: @e-bar-link-visited;
+}
+
+.ui-bar-e a.ui-link:hover {
+	color: @e-bar-link-hover;
+}
+
+.ui-bar-e a.ui-link:active {
+	color: @e-bar-link-active;
+}
+
+.ui-bar-e,
+.ui-bar-e input,
+.ui-bar-e select,
+.ui-bar-e textarea,
+.ui-bar-e button {
+	font-family: @global-font-family;
+}
+.ui-body-e,
+.ui-overlay-e {
+	border: @e-body-border;
+	color: @e-body-color;
+	text-shadow: @e-body-shadow-x @e-body-shadow-y @e-body-shadow-radius @e-body-shadow-color;
+	background: @e-body-background-color;
+	#jqm > .bg(@e-body-background-start, @e-body-background-end);
+}
+.ui-overlay-e {
+	background-image: none;
+	border-width: 0;
+}
+.ui-body-e,
+.ui-body-e input,
+.ui-body-e select,
+.ui-body-e textarea,
+.ui-body-e button {
+	font-family: @global-font-family;
+}
+.ui-body-e .ui-link-inherit {
+	color: @e-body-color;
+}
+
+.ui-body-e .ui-link {
+	color: @e-body-link-color;
+	font-weight: bold;
+}
+
+.ui-body-e .ui-link:visited {
+    color: @e-body-link-visited;
+}
+
+.ui-body-e .ui-link:hover {
+	color: @e-body-link-hover;
+}
+
+.ui-body-e .ui-link:active {
+	color: @e-body-link-active;
+}
+
+.ui-btn-up-e {
+	border: @e-bup-border;
+	background: @e-bup-background-color;
+	font-weight: bold;
+	color: @e-bup-color;
+	text-shadow: @e-bup-shadow-x @e-bup-shadow-y @e-bup-shadow-radius @e-bup-shadow-color;
+	#jqm > .bg(@e-bup-background-start, @e-bup-background-end);
+}
+.ui-btn-up-e:visited,
+.ui-btn-up-e a.ui-link-inherit {
+	color: @e-bup-color;
+}
+.ui-btn-hover-e {
+	border: @e-bhover-border;
+	background: @e-bhover-background-color;
+	font-weight: bold;
+	color: @e-bhover-color;
+	text-shadow: @e-bhover-shadow-x @e-bhover-shadow-y @e-bhover-shadow-radius @e-bhover-shadow-color;
+	#jqm > .bg(@e-bhover-background-start, @e-bhover-background-end);
+}
+.ui-btn-hover-e:visited,
+.ui-btn-hover-e:hover,
+.ui-btn-hover-e a.ui-link-inherit {
+	color: @e-bhover-color;
+}
+.ui-btn-down-e {
+	border: @e-bdown-border;
+	background: @e-bdown-background-color;
+	font-weight: bold;
+	color: @e-bdown-color;
+	text-shadow: @e-bdown-shadow-x @e-bdown-shadow-y @e-bdown-shadow-radius @e-bdown-shadow-color;
+	#jqm > .bg(@e-bdown-background-start, @e-bdown-background-end);
+}
+.ui-btn-down-e:visited,
+.ui-btn-down-e:hover,
+.ui-btn-down-e a.ui-link-inherit {
+	color: @e-bdown-color;
+}
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e {
+	font-family: @global-font-family;
+	text-decoration: none;
+}
