@@ -3,7 +3,7 @@ jQuery Mobile theme with LessCss
 
 This project aims to integrate LessCss with jQuery Mobile base theme as downloaded from [theme roller](http://jquerymobile.com/themeroller/ "jQuery Mobile theme rolller").
 
-The project actually is based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
+The project is actually based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
 
 Add swatch
 ----------
