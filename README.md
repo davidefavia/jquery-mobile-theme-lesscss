@@ -7,7 +7,7 @@ Add swatch
 ----------
 If you need to add a swatch (e.g. called "f") simply:
 
-1. copy and paste <code>swatch-a.less</code> (inside <code>theme</code> directory) renaming it as <code>swatch-f.less</code>
+1. copy and paste <code>swatch-a.less</code> (inside <code>themes</code> directory) renaming it as <code>swatch-f.less</code>
 2. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 3. open <code>swatch-f.less</code> with your preferred editor and:
 	* search for <code>@a-</code> and change to <code>@f-</code>
