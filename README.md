@@ -5,7 +5,7 @@ This project aims to integrate LessCss with base jQuery Mobile theme as download
 
 Add swatch
 ----------
-If you need to add a swatch (e.g. called "f") simply:
+If you need to add a swatch (e.g. called <code>f</code>) simply:
 
 1. copy and paste <code>swatch-a.less</code> (inside <code>themes</code> directory) renaming it as <code>swatch-f.less</code>
 2. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
@@ -22,7 +22,8 @@ Application configuration
 -------------------------
 File <code>app.less</code> let you import all swatches you need (default: a,b,c,d,e), jQuery Mobile mixins and global variables. Just edit <code>app.less</code>
 to import more or less options (e.g. a second mixins file, other swatches of few swatches).
-**theme.less** imports app.less and it includes css rules for structure.
+
+**theme.less** simply imports <code>app.less</code> and it includes css rules for structure.
 
 License
 -------
