@@ -9,12 +9,12 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 
 1. copy and paste <code>swatch-a.less</code> (inside <code>themes</code> directory) renaming it as <code>swatch-f.less</code>
 2. open <code>swatch-f.less</code> with your preferred editor and:
-	* search for <code>@a-</code> and change to <code>@f-</code>
-	* search for <code>.ui-bar-a</code> and change to <code>.ui-bar-f</code>
-	* search for <code>.ui-body-a</code> and change to <code>.ui-body-f</code>
-	* search for <code>.ui-btn-up</code> and change to <code>.ui-btn-up-f</code>
-	* search for <code>.ui-btn-hover</code> and change to <code>.ui-btn-hover-f</code>
-	* search for <code>.ui-btn-down</code> and change to <code>.ui-btn-down-f</code>
+	* search for <code>@a-</code> and replace with <code>@f-</code>
+	* search for <code>.ui-bar-a</code> and replace with <code>.ui-bar-f</code>
+	* search for <code>.ui-body-a</code> and replace with <code>.ui-body-f</code>
+	* search for <code>.ui-btn-up</code> and replace with <code>.ui-btn-up-f</code>
+	* search for <code>.ui-btn-hover</code> and replace with <code>.ui-btn-hover-f</code>
+	* search for <code>.ui-btn-down</code> and replace with <code>.ui-btn-down-f</code>
 3. save <code>swatch-f.less</code>
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
