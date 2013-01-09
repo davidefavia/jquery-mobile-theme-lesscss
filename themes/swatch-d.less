@@ -84,28 +84,24 @@
 }
 
 .ui-bar-d a.ui-link {
-	color: @d-bar-link-color;
+	color: @a-bar-link-color;
 	font-weight: bold;
+	&:visited {
+		color: @d-bar-link-visited;
+	}
+	&:hover {
+		color: @d-bar-link-hover;
+	}
+	&:active {
+		color: @d-bar-link-active;
+	}
 }
 
-.ui-bar-d a.ui-link:visited {
-    color: @d-bar-link-visited;
-}
-
-.ui-bar-d a.ui-link:hover {
-	color: @d-bar-link-hover;
-}
-
-.ui-bar-d a.ui-link:active {
-	color: @d-bar-link-active;
-}
-
-.ui-bar-d,
-.ui-bar-d input,
-.ui-bar-d select,
-.ui-bar-d textarea,
-.ui-bar-d button {
+.ui-bar-d {
 	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-d,
 .ui-overlay-d {
@@ -119,32 +115,28 @@
 	background-image: none;
 	border-width: 0;
 }
-.ui-body-d,
-.ui-body-d input,
-.ui-body-d select,
-.ui-body-d textarea,
-.ui-body-d button {
-	 font-family: @global-font-family;
+.ui-body-d {
+	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-d .ui-link-inherit {
 	color: @d-body-color;
 }
 
 .ui-body-d .ui-link {
-	color: @d-body-link-color;
+	color: @a-body-link-color;
 	font-weight: bold;
-}
-
-.ui-body-d .ui-link:visited {
-    color: @d-body-link-visited;
-}
-
-.ui-body-d .ui-link:hover {
-	color: @d-body-link-hover;
-}
-
-.ui-body-d .ui-link:active {
-	color: @d-body-link-active;
+	&:visited {
+		color: @d-body-link-visited;
+	}
+	&:hover {
+		color: @d-body-link-hover;
+	}
+	&:active {
+		color: @d-body-link-active;
+	}
 }
 
 .ui-btn-up-d {

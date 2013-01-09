@@ -84,28 +84,24 @@
 }
 
 .ui-bar-c a.ui-link {
-	color: @a-bar-link-color;
+	color: @c-bar-link-color;
 	font-weight: bold;
+	&:visited {
+		color: @c-bar-link-visited;
+	}
+	&:hover {
+		color: @c-bar-link-hover;
+	}
+	&:active {
+		color: @c-bar-link-active;
+	}
 }
 
-.ui-bar-c a.ui-link:visited {
-    color: @a-bar-link-visited;
-}
-
-.ui-bar-c a.ui-link:hover {
-	color: @a-bar-link-hover;
-}
-
-.ui-bar-c a.ui-link:active {
-	color: @a-bar-link-active;
-}
-
-.ui-bar-c,
-.ui-bar-c input,
-.ui-bar-c select,
-.ui-bar-c textarea,
-.ui-bar-c button {
-	 font-family: @global-font-family;
+.ui-bar-c {
+	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-c,
 .ui-overlay-c {
@@ -119,12 +115,11 @@
 	background-image: none;
 	border-width: 0;
 }
-.ui-body-c,
-.ui-body-c input,
-.ui-body-c select,
-.ui-body-c textarea,
-.ui-body-c button {
-	 font-family: @global-font-family;
+.ui-body-c {
+	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-c .ui-link-inherit {
 	color: @a-body-color;
@@ -133,18 +128,15 @@
 .ui-body-c .ui-link {
 	color: @a-body-link-color;
 	font-weight: bold;
-}
-
-.ui-body-c .ui-link:visited {
-    color: @a-body-link-visited;
-}
-
-.ui-body-c .ui-link:hover {
-	color: @a-body-link-hover;
-}
-
-.ui-body-c .ui-link:active {
-	color: @a-body-link-active;
+	&:visited {
+		color: @c-body-link-visited;
+	}
+	&:hover {
+		color: @c-body-link-hover;
+	}
+	&:active {
+		color: @c-body-link-active;
+	}
 }
 
 .ui-btn-up-c {

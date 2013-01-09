@@ -86,26 +86,22 @@
 .ui-bar-b a.ui-link {
 	color: @b-bar-link-color;
 	font-weight: bold;
+	&:visited {
+		color: @b-bar-link-visited;
+	}
+	&:hover {
+		color: @b-bar-link-hover;
+	}
+	&:active {
+		color: @b-bar-link-active;
+	}
 }
 
-.ui-bar-b a.ui-link:visited {
-    color: @b-bar-link-visited;
-}
-
-.ui-bar-b a.ui-link:hover {
-	color: @b-bar-link-hover;
-}
-
-.ui-bar-b a.ui-link:active {
-	color: @b-bar-link-active;
-}
-
-.ui-bar-b,
-.ui-bar-b input,
-.ui-bar-b select,
-.ui-bar-b textarea,
-.ui-bar-b button {
-	 font-family: @global-font-family;
+.ui-bar-b {
+	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-b,
 .ui-overlay-b {
@@ -119,12 +115,11 @@
 	background-image: none;
 	border-width: 0;
 }
-.ui-body-b,
-.ui-body-b input,
-.ui-body-b select,
-.ui-body-b textarea,
-.ui-body-b button {
-	 font-family: @global-font-family;
+.ui-body-b {
+	font-family: @global-font-family;
+	input, select, textarea, button {
+		font-family: @global-font-family;
+	}
 }
 .ui-body-b .ui-link-inherit {
 	color: @b-body-color;
@@ -133,18 +128,15 @@
 .ui-body-b .ui-link {
 	color: @b-body-link-color;
 	font-weight: bold;
-}
-
-.ui-body-b .ui-link:visited {
-    color: @b-body-link-visited;
-}
-
-.ui-body-b .ui-link:hover {
-	color: @b-body-link-hover;
-}
-
-.ui-body-b .ui-link:active {
-	color: @b-body-link-active;
+	&:visited {
+		color: @b-body-link-visited;
+	}
+	&:hover {
+		color: @b-body-link-hover;
+	}
+	&:active {
+		color: @b-body-link-active;
+	}
 }
 
 .ui-btn-up-b {
