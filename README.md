@@ -5,7 +5,7 @@ This project aims to integrate [LessCSS](http://lesscss.org/ "LESS « The Dynamic
 
 How to create new swatch
 ----------
-If you don't know what a theme swatch means in jQuery Mobile, [read here](http://jquerymobile.com/test/docs/api/themes.html "jQuery Mobile docs: themes").
+If you don't know what a _theme swatch_ means in jQuery Mobile, [read here](http://jquerymobile.com/test/docs/api/themes.html "jQuery Mobile docs: themes").
 
 If you need to add a swatch (e.g. called <code>f</code>) simply:
 
