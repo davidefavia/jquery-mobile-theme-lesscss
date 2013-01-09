@@ -1,7 +1,7 @@
-jQuery Mobile theme with LessCss
+jQuery Mobile theme with LessCSS
 ================================
 
-This project aims to integrate LessCss with jQuery Mobile base theme as downloaded from [theme roller](http://jquerymobile.com/themeroller/ "jQuery Mobile theme rolller"). The project is actually based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
+This project aims to integrate [LessCSS](http://lesscss.org/ "LESS &laquo; The Dynamic Stylesheet language") with [jQuery Mobile](http://jquerymobile.com/ "jQuery Mobile") base theme as downloaded from [theme roller](http://jquerymobile.com/themeroller/ "jQuery Mobile theme rolller"). The project is actually based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
 
 Add swatch
 ----------
@@ -17,7 +17,7 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 	* search for <code>.ui-btn-down</code> and change to <code>.ui-btn-down-f</code>
 3. save <code>swatch-f.less</code>
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
-5. compile <code>theme.less</code> to <code>theme.css</code>
+5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
 
 Application configuration
 -------------------------
