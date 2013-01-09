@@ -26,7 +26,7 @@ to import more or less options (e.g. a second mixins file, other swatches of few
 
 **theme.less** simply imports <code>app.less</code> and it includes css rules for structure.
 
-License
+License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
 -------
 Copyright (c) 2013 davide favia
 
