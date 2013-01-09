@@ -1,7 +1,7 @@
 jQuery Mobile theme with LessCSS
 ================================
 
-This project aims to integrate [LessCSS](http://lesscss.org/ "LESS &laquo; The Dynamic Stylesheet language") with [jQuery Mobile](http://jquerymobile.com/ "jQuery Mobile") base theme as downloaded from [theme roller](http://jquerymobile.com/themeroller/ "jQuery Mobile theme rolller"). The project is actually based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
+This project aims to integrate [LessCSS](http://lesscss.org/ "LESS « The Dynamic Stylesheet language") with [jQuery Mobile](http://jquerymobile.com/ "jQuery Mobile") base theme as downloaded from [theme roller](http://jquerymobile.com/themeroller/ "jQuery Mobile theme rolller"). The project is actually based on [jQuery Mobile version 1.2.0](http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/ "jQuery Mobile version 1.2.0").
 
 Add swatch
 ----------
