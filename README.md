@@ -34,7 +34,7 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 
 Contacts
 --------
-For any problem [file an issue](https://github.com/davidefavia/jquery-mobile-theme-lesscss/issues "jQuery Mobile theme LessCSS issues") or [ask me on twitter](https://twitter.com/_davide "@_davide")
+For any problem [file an issue](https://github.com/davidefavia/jquery-mobile-theme-lesscss/issues "jQuery Mobile theme LessCSS issues") or [ask me on Twitter](https://twitter.com/_davide "@_davide")
 
 License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
 -------------------------------------------------------------------------------
