@@ -18,10 +18,10 @@
 		background-image: -moz-linear-gradient(@start ,@end); /* FF3.6 */
 	}
 	.bg-signal(@start,@end,@b,@signal) when (@b=true) and (@signal=3) {
-		background-image: -ms-linear-gradient(@start ,@end); /* IE10 */
+		background-image: -o-linear-gradient(@start ,@end); /* Opera 11.10+ */
 	}
 	.bg-signal(@start,@end,@b,@signal) when (@b=true) and (@signal=4) {
-		background-image: -o-linear-gradient(@start ,@end); /* Opera 11.10+ */
+		background-image: -ms-linear-gradient(@start ,@end); /* IE10 */
 	}
 	.bg-signal(@start,@end,@b,@signal) when (@b=true) and (@signal=5) {
 		background-image: linear-gradient(@start ,@end);
