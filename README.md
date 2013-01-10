@@ -23,7 +23,7 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
 
-Application configuration
+Configuration
 -------------------------
 File <code>app.less</code> let you import all swatches you need (default: a,b,c,d,e), jQuery Mobile mixins and global variables. Just edit <code>app.less</code>
 to import more or less options (e.g. a second mixins file, other swatches of few swatches).
