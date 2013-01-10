@@ -32,6 +32,10 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
 
+Contacts
+--------
+For any problem [file an issue](https://github.com/davidefavia/jquery-mobile-theme-lesscss/issues "jQuery Mobile theme LessCSS issues") or [ask me on twitter](https://twitter.com/_davide "@_davide")
+
 License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
 -------------------------------------------------------------------------------
 Copyright (c) 2013 davide favia <davide.favia@gmail.com>
