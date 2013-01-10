@@ -5,6 +5,15 @@ This project aims to integrate [LessCSS](http://lesscss.org/ "LESS « The Dynamic
 
 It compiles with both [LessElements](http://lesselements.com/ "LessElements") and [LessHAT](http://lesshat.com/ "LessHAT"). Conditional browser vendor prefixes is an idea _stolen_ from [LessHAT](http://lesshat.com/ "LessHAT").
 
+Configuration
+-------------
+File <code>global.less</code> let you define which browser vendors prefixes you want to include and global variables for your jQuery Mobile application.
+
+File <code>app.less</code> let you import all swatches you need (default: a,b,c,d,e), jQuery Mobile mixins and global variables. Just edit <code>app.less</code>
+to import more or less options (e.g. a second mixins file, other swatches of few swatches).
+
+Every swatch file (e.g. <code>swatch-a.less</code>) includes two sections: swatch variables (colors, dimensions, fonts) and css rules. You can edit everything you need to fit your application look and feel.
+
 How to manually create new swatch
 ---------------------------------
 If you don't know what a _theme swatch_ means in jQuery Mobile, [read here](http://jquerymobile.com/test/docs/api/themes.html "jQuery Mobile docs: themes").
@@ -22,16 +31,6 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 3. change what you need and save <code>swatch-f.less</code>
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
-
-Configuration
--------------
-File <code>global.less</code> let you define which browser vendors prefixes you want to include and global variables for your jQuery Mobile application.
-
-File <code>app.less</code> let you import all swatches you need (default: a,b,c,d,e), jQuery Mobile mixins and global variables. Just edit <code>app.less</code>
-to import more or less options (e.g. a second mixins file, other swatches of few swatches).
-
-Every swatch file (e.g. <code>swatch-a.less</code>) includes two sections: swatch variables (colors, dimensions, fonts) and css rules. You can edit everything you need to fit your application look and feel.
-
 
 License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
 -------------------------------------------------------------------------------
