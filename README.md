@@ -32,7 +32,7 @@ to import more or less options (e.g. a second mixins file, other swatches of few
 
 Global variables
 ----------------
-File <code>global.less</code> let you define which browser vendors prefixes you want to include and global variables for jQuery Mobile application.
+File <code>global.less</code> let you define which browser vendors prefixes you want to include and global variables for your jQuery Mobile application.
 
 License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
 -------
