@@ -31,7 +31,7 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 	* search for <code>.ui-btn-down-a</code> and replace with <code>.ui-btn-down-f</code>
 3. change what you need and save <code>swatch-f.less</code>
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
-5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
+5. compile <code>theme.less</code> to <code>theme.css</code>
 
 Contacts
 --------
