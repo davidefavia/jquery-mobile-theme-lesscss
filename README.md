@@ -19,19 +19,15 @@ If you need to add a swatch (e.g. called <code>f</code>) simply:
 	* search for <code>.ui-btn-up-a</code> and replace with <code>.ui-btn-up-f</code>
 	* search for <code>.ui-btn-hover-a</code> and replace with <code>.ui-btn-hover-f</code>
 	* search for <code>.ui-btn-down-a</code> and replace with <code>.ui-btn-down-f</code>
-3. save <code>swatch-f.less</code>
+3. change what you need and save <code>swatch-f.less</code>
 4. add <code>@import "swatch-f.less";</code> line to <code>app.less</code>
 5. compile <code>theme.less</code> to <code>theme.css</code> (with <code>node</code> or runtime)
 
-Application configuration (app.less)
+Application configuration
 -------------------------
 File <code>app.less</code> let you import all swatches you need (default: a,b,c,d,e), jQuery Mobile mixins and global variables. Just edit <code>app.less</code>
 to import more or less options (e.g. a second mixins file, other swatches of few swatches).
 
-**theme.less** simply imports <code>app.less</code> and includes css rules for structure.
-
-Global variables
-----------------
 File <code>global.less</code> let you define which browser vendors prefixes you want to include and global variables for your jQuery Mobile application.
 
 License [MIT](http://opensource.org/licenses/MIT "MIT license @opensource.org")
