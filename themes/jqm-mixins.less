@@ -90,7 +90,7 @@
 	.box-shadow(@arg1, @arg2) {
 		.box-shadow-signal(@arg1, @arg2, @webkit, @webkitSignal);
 		.box-shadow-signal(@arg1, @arg2, @moz, @mozSignal);
-		.box-shadow-signal(@arg1, @arg2, @w3cSignal);
+		.box-shadow-signal(@arg1, @arg2, @w3c, @w3cSignal);
 	}
 	.box-shadow-signal(@a1, @b, @signal) when (@b=true) and (@signal=1) {
 		-webkit-box-shadow: @a1;

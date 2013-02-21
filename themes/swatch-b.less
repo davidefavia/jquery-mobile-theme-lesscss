@@ -8,7 +8,7 @@
 @b-bar-background-color: #5e87b0;
 @b-bar-color: #fff;
 @b-bar-shadow-x: 0;
-@b-bar-shadow-y: -1px;
+@b-bar-shadow-y: 1px;
 @b-bar-shadow-radius: 1px;
 @b-bar-shadow-color: #3e6790;
 @b-bar-background-start: #6facd5;
@@ -39,7 +39,7 @@
 @b-bup-color: #fff;
 @b-bup-shadow-x: 0;
 @b-bup-shadow-y: 1px;
-@b-bup-shadow-radius: 1px;
+@b-bup-shadow-radius: 0;
 @b-bup-shadow-color: #194b7e;
 @b-bup-background-start: #5f9cc5;
 @b-bup-background-end: #396b9e;
@@ -50,7 +50,7 @@
 @b-bhover-color: #fff;
 @b-bhover-shadow-x: 0;
 @b-bhover-shadow-y: 1px;
-@b-bhover-shadow-radius: 1px;
+@b-bhover-shadow-radius: 0;
 @b-bhover-shadow-color: #194b7e;
 @b-bhover-background-start: #6facd5;
 @b-bhover-background-end: #4272a4;
@@ -61,7 +61,7 @@
 @b-bdown-color: #fff;
 @b-bdown-shadow-x: 0;
 @b-bdown-shadow-y: 1px;
-@b-bdown-shadow-radius: 1px;
+@b-bdown-shadow-radius: 0;
 @b-bdown-shadow-color: #194b7e;
 @b-bdown-background-start: #295b8e;
 @b-bdown-background-end: #3e79b5;
@@ -142,7 +142,7 @@
 .ui-btn-up-b {
 	#jqm > .btn-attrs(@b-bup-background-color, @b-bup-border, @b-bup-color);
 	text-shadow: @b-bup-shadow-x @b-bup-shadow-y @b-bup-shadow-radius @b-bup-shadow-color;
-	#jqm > .bg(@b-bup-background-start, a-bup-background-end);
+	#jqm > .bg(@b-bup-background-start, @b-bup-background-end);
 	&:visited, a.ui-link-inherit {
 		color: @b-bup-color;
 	}
