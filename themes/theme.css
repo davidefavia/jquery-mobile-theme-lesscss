@@ -231,7 +231,7 @@
   background: #5e87b0;
   color: #ffffff;
   font-weight: bold;
-  text-shadow: 0 1px 1px #3e6790;
+  text-shadow: 0 1px 0 #3e6790;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6facd5), to(#497bae));
   /* Saf4+, Chrome */
 
@@ -1058,7 +1058,6 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 .ui-corner-all {
   -webkit-border-radius: 0.6em;
-  -moz-border-radius: 0.6em;
   border-radius: 0.6em;
 }
 /* Form field separator
@@ -1089,7 +1088,6 @@ a.ui-link-inherit {
   background-image: url(images/icons-18-white.png);
   background-repeat: no-repeat;
   -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
   border-radius: 9px;
 }
 /* Alt icon color
@@ -1304,7 +1302,6 @@ a.ui-link-inherit {
 .ui-checkbox .ui-icon,
 .ui-selectmenu-list .ui-icon {
   -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 .ui-icon-checkbox-off,
@@ -1326,7 +1323,6 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-corner-all {
   -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
   border-radius: 1em;
 }
 /* radius clip workaround for cleaning up corner trapping */

@@ -31,19 +31,14 @@
 	/* border-radius */
 	.border-radius(@radius) {
 		.border-radius-signal(@radius,@webkit,@webkitSignal);
-		.border-radius-signal(@radius,@moz,@mozSignal);
 		.border-radius-signal(@radius,@w3c,@w3cSignal);
 	}
 	.border-radius(@top-left,@top-right,@bottom-right,@bottom-left) {
 		.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@webkit,@webkitSignal);
-		.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@moz,@mozSignal);
 		.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@w3c,@w3cSignal);
 	}
 	.border-radius-signal(@radius,@b,@signal) when (@b=true) and (@signal=1) {
 		-webkit-border-radius: @radius;
-	}
-	.border-radius-signal(@radius,@b,@signal) when (@b=true) and (@signal=2) {
-		-moz-border-radius: @radius;
 	}
 	.border-radius-signal(@radius,@b,@signal) when (@b=true) and (@signal=5) {
 		border-radius: @radius;
@@ -51,9 +46,6 @@
 	.border-radius-signal(@radius,@b,@signal) when not(@b=true) { }
 	.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@b,@signal) when (@b=true) and (@signal=1) {
 		-webkit-border-radius: @top-left @top-right @bottom-right @bottom-left;
-	}
-	.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@b,@signal) when (@b=true) and (@signal=2) {
-		-moz-border-radius: @top-left @top-right @bottom-right @bottom-left;
 	}
 	.border-radius-signal(@top-left,@top-right,@bottom-right,@bottom-left,@b,@signal) when (@b=true) and (@signal=5) {
 		border-radius: @top-left @top-right @bottom-right @bottom-left;
